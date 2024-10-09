@@ -459,7 +459,7 @@
 #Luxury Mining Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
+  id: ClothingOuterHardsuitLuxury
   name: luxury mining hardsuit
   description: A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
   components:
@@ -497,11 +497,11 @@
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndicate.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndicate.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -555,9 +555,9 @@
   description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndieelite.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndieelite.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -595,9 +595,9 @@
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -628,9 +628,9 @@
   description: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/cybersun.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/cybersun.rsi #backmen resprite
+    sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
