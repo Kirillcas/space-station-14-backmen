@@ -6,15 +6,12 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobAtmosphericTechnician
-      time: 36000 #10 hrs # Corvax-RoleTime
-#    - !type:RoleTimeRequirement
-#      role: JobStationEngineer
-#      time: 21600 #6 hrs
+      time: 7200 #2 hr
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 54000 #15 hrs # Corvax-RoleTime
+      time: 18000 #5 hr
 #    - !type:OverallPlaytimeRequirement
-#      time: 144000 #40 hrs
+#      time: 36000 #10 hr
     - !type:AgeRequirement
       requiredAge: 21
   weight: 10
