@@ -105,6 +105,7 @@
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
+  - Slugcat
   - Paramedic
   accountNumber: 1319 #backmen: currency
 
