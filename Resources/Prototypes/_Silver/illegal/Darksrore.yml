@@ -1,32 +1,32 @@
 - type: currency
   id: Credits
-  displayName: Кредиты
+  displayName: ГЉГ°ГҐГ¤ГЁГІГ»
   cash:
     1: SpaceCash
   canWithdraw: true
 
 - type: storeCategory
   id: DarkStoreNTCategory
-  name: НаноТрейзен
+  name: РќР°РЅРѕ-РўСЂРµР№Р·РµРЅ
   priority: 0
 
 
 - type: storeCategory
   id: DarkStoreSyndiCategory
-  name: Синдикат
+  name: РЎРёРЅРґРёРєР°С‚
   priority: 1
 
 
 - type: storeCategory
   id: DarkStoreRedOrdenCategory
-  name: Красный орден
+  name: РљСЂР°СЃРЅС‹Р№ РѕСЂРґРµРЅ
   priority: 2
 
 # Uplinks
 - type: entity
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
   id: DarkStore
-  name: syndicate uplink
+  name: Р§РµСЂРЅС‹Р№ СЂС‹РЅРѕРє
   description: Suspiciously looking old radio...
   suffix: Empty
   components:
@@ -46,7 +46,7 @@
   - type: Store
     balance:
       Telecrystal: 0
-    name: Черный рынок
+    name: Р§РµСЂРЅС‹Р№ СЂС‹РЅРѕРє
     categories:
     - DarkStoreNTCategory
     - DarkStoreSyndiCategory
@@ -64,3 +64,29 @@
     Credits: 3
   categories:
   - DarkStoreNTCategory
+
+- type: listing
+  id: DarkStore
+  name: uplink-pistol-viper-name
+  description: uplink-pistol-viper-desc
+  productEntity: WeaponPistolHIB88M4
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Credits: 2
+  cost:
+    Credits: 3
+  categories:
+  - DarkStoreSyndiCategory
+
+- type: listing
+  id: DarkStore
+  name: uplink-pistol-viper-name
+  description: uplink-pistol-viper-desc
+  productEntity: WeaponPistolHIB88M4
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Credits: 2
+  cost:
+    Credits: 3
+  categories:
+  - DarkStoreRedOrdenCategory
