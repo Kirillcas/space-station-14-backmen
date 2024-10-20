@@ -1,8 +1,8 @@
 - type: entity
   id: MonetPrinter
   parent: BaseLatheLube
-  name: денежный принтер
-  description: Всегда в не закона так как рушит экономику.
+  name: Р”РµРЅРµР¶РЅС‹Р№ РїСЂРёРЅС‚РµСЂ
+  description: РљСЂР°Р№РЅРµ РЅРµ Р·Р°РєРѕРЅРЅР°СЏ РІРµС‰РёС†Р°.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -43,7 +43,7 @@
 - type: entity
   id: MoneyPrinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: плата денежного принтера
+  name: РїР»Р°С‚Р° РґРµРЅРµР¶РЅРµРіРѕ РїСЂРёРЅС‚РµСЂР°
   components:
   - type: Sprite
     state: science
